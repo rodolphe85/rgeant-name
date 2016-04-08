@@ -1,5 +1,6 @@
 body{
 	background-color: white;
+	height: 100%;
 	/*background-image: url("../images/brics.png");*/
 	font-family: "open sans";
 
@@ -21,14 +22,19 @@ body{
 }
 
 .wrapper{
-	padding-top: 150px;
+	padding-top: 15%;
+	padding-bottom: 15%;
 	background-image: url("../images/clouds.jpg");
-	height: 600px;
+	height: 100%;
 	/*background-repeat: no-repeat; */
 	background-size: cover;
 	color: black;
 	text-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
 
+}
+
+.footer {
+	height: 25%;
 }
 
 #wrapper h1{

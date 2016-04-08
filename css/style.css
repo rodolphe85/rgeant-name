@@ -1,0 +1,63 @@
+body{
+	background-color: white;
+	/*background-image: url("../images/brics.png");*/
+	font-family: "open sans";
+
+	
+}
+
+
+.navbar-transparent {
+    background-color: rgba(0, 149, 221, 0.4);
+}
+
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 15px;
+}
+
+.wrapper{
+	padding-top: 150px;
+	background-image: url("../images/clouds.jpg");
+	height: 600px;
+	/*background-repeat: no-repeat; */
+	background-size: cover;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
+
+}
+
+#wrapper h1{
+	font-size: 72px;
+}
+
+.spacer1{
+	padding-top: 8em;
+}
+
+.spacer2{
+	padding-bottom: 2em;
+}
+
+.row{
+
+	padding: 30px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+textarea {
+    border: none;
+    border-collapse:collapse;
+   resize: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    border-radius: 7px;
+}

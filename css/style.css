@@ -1,5 +1,5 @@
 body{
-	background-color: white;
+	background-color: rgba(240, 173, 77, 0.9);
 	
 	/*background-image: url("../images/brics.png");*/
 	font-family: "open sans";
@@ -25,7 +25,7 @@ body{
 	padding-top: 15%;
 	padding-bottom: 15%;
 	background-image: url("../images/clouds.jpg");
-	height: 90vh;
+	height: 92vh;
 	/*background-repeat: no-repeat; */
 	background-size: cover;
 	color: black;

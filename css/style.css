@@ -4,6 +4,7 @@ body{
 	/*background-image: url("../images/brics.png");*/
 	font-family: "open sans";
 
+
 	
 }
 
@@ -33,8 +34,8 @@ body{
 
 }
 
-.footer {
-	
+.header {
+	text-align: center;
 }
 
 #wrapper h1{

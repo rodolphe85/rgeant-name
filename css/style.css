@@ -25,6 +25,11 @@ a:visited {
     background-color: rgba(0, 149, 221, 0.4);
 }
 
+.contenu {
+	background: rgba(230,230,230,0.8);
+	padding: 10px;
+	border-radius: 10px;
+}
 
 .container-fluid {
     padding-right: 15px;
@@ -48,6 +53,7 @@ a:visited {
 
 .header {
 	text-align: center;
+	margin: 30px;
 }
 
 /*#footer{

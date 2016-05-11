@@ -34,6 +34,11 @@ a:visited {
 	box-shadow: 2px 2px 3px #C1BDB4;
 }
 
+.aircraft {
+	width: 200px;
+	height: auto;
+}
+
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;

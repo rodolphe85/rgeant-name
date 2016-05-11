@@ -35,8 +35,9 @@ a:visited {
 }
 
 .aircraft {
-	width: 200px;
-	height: auto;
+border-radius: 5%;
+width: 75%;
+height: auto;
 }
 
 .container-fluid {

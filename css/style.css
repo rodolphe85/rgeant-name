@@ -1,8 +1,8 @@
 body{
 	/*background-color: rgba(0, 149, 221, 0.7);*/
-	color: #EA4335;
+	
 	background-image: url("../images/clouds.jpg");
-	background-size: cover;
+    background-size: cover;
 	font-family:'open sans', sans-serif;
 	
 
@@ -26,12 +26,13 @@ a:visited {
 }
 
 .contenu {
-	background: rgba(230,230,230,0.8);
+	background: rgba(0, 149, 221, 0.3);
 	padding: 30px;
 	width: 750px;
 	margin: 20px auto;
 	border-radius: 10px;
 	box-shadow: 2px 2px 3px #C1BDB4;
+	
 }
 
 .aircraft {
@@ -51,6 +52,7 @@ margin: auto;
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 15px;
+    
 }
 
 .wrapper{
@@ -62,6 +64,7 @@ margin: auto;
 	/*background-size: cover;*/
 	color: black;
 	/*text-shadow: 2px 2px 5px rgba(0,0,0, 0.5);*/
+	
 
 }
 

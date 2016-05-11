@@ -25,20 +25,13 @@ a:visited {
     background-color: rgba(0, 149, 221, 0.4);
 }
 
-.contenu {
-	background: rgba(0, 149, 221, 0.2);
-	padding: 30px;
-	width: auto;
-	margin: 20px auto;
-	border-radius: 10px;
-	box-shadow: 2px 2px 3px #C1BDB4;
-	
-}
+
 
 .photo{
 
 
 float: left;
+width: 20%;
 }
 
 .aircraft {
@@ -51,28 +44,21 @@ top: 0; bottom: 0; left: 0; right: 0;
 margin: auto;
 
 }
-
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 15px;
-    
+   
+.spacer{
+	height: 20vh;
 }
 
-.wrapper{
-	margin-top: 10em;
-	margin-bottom: 30px;
-	/*background-image: url("../images/clouds.jpg");*/
-	height: 92vh;
-	/*background-repeat: no-repeat; */
-	/*background-size: cover;*/
-	color: black;
-	/*text-shadow: 2px 2px 5px rgba(0,0,0, 0.5);*/
+
+.contenu {
+	background: rgba(0, 149, 221, 0.2);
+	padding: 30px;
+	width: 800px;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 2px 2px 3px #C1BDB4;
 	
-
-}
+}	
 
 .header {
 	text-align: center;

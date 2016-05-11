@@ -28,11 +28,17 @@ a:visited {
 .contenu {
 	background: rgba(0, 149, 221, 0.2);
 	padding: 30px;
-	width: 750px;
+	width: auto;
 	margin: 20px auto;
 	border-radius: 10px;
 	box-shadow: 2px 2px 3px #C1BDB4;
 	
+}
+
+.photo{
+
+
+float: left;
 }
 
 .aircraft {

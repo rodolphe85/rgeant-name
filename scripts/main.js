@@ -22,4 +22,4 @@ countDown = function(reboursDays){
 finalCountDown = countDown(reboursDays);
 
 
-document.getElementById('finalCountDown').innerHTML=finalCountDown;
+document.getElementById('finalcountdown').innerHTML=finalCountDown;

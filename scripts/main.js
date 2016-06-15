@@ -1,25 +1,24 @@
 var today = new Date();
 document.getElementById('time').innerHTML=today;
 
-var today = new Date(); // date d'aujourd'hui en millisecondes
+var xtoday = new Date(); // date d'aujourd'hui en millisecondes
 var christmas = new Date('2016-12-25'); // Date de Noel en millisecondes
 
-var rebours = christmas.getTime() - today.getTime(); //rebours en millisecondes
+var rebours = christmas.getTime() - xtoday.getTime(); //rebours en millisecondes
 
 var reboursDays = Math.floor(rebours / (1000 * 60 * 60 * 24)); // rebours en jours
 
-countDown = function(reboursDays){
+countDown = function(){
   if(reboursDays >30){
-    console.log(reboursDays +" days to Christmas !");
+    return(reboursDays +" days to Christmas !");
   }
 
   else{
-    console.log("Christmas is approaching fast");
+    return("Christmas is approaching fast");
   }
 
 };
 
-finalCountDown = countDown(reboursDays);
-
+var finalCountDown = countDown(reboursDays);
 
 document.getElementById('finalcountdown').innerHTML=finalCountDown;

@@ -1,10 +1,11 @@
 body{
 	/*background-color: rgba(0, 149, 221, 0.7);*/
-	
+
 	background-image: url("../images/clouds1.jpg");
     background-size: cover;
 	font-family:'open sans', sans-serif;
-	
+
+
 
 }
 
@@ -14,12 +15,15 @@ a {
 }
 
 a:hover {
+  text-decoration: none;
 	color: #EA4335;
 }
 
 a:visited {
-	color: #EA4335;
+  text-decoration: none;
+	color: black;
 }
+
 
 .navbar-transparent {
     background-color: rgba(0, 149, 221, 0.4);
@@ -28,14 +32,19 @@ a:visited {
 
 
 .photo{
-
-
 float: left;
 width: 20%;
 }
 
+.aircraftPic{
+  padding: 30px;
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
 .aircraft {
-	
+
 border-radius: 5%;
 width: 800px;
 height: auto;
@@ -44,7 +53,7 @@ top: 0; bottom: 0; left: 0; right: 0;
 margin: auto;
 
 }
-   
+
 .spacer{
 	height: 20vh;
 }
@@ -57,8 +66,8 @@ margin: auto;
 	margin: 0 auto;
 	border-radius: 10px;
 	box-shadow: 2px 2px 3px #C1BDB4;
-	
-}	
+
+}
 
 .header {
 	text-align: center;

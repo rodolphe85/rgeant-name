@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $(".ey").hide();
   $(".uu").hide();
+  $(".by").hide();
 
   $("#eyCaptainTitle").click(function(){
     $("#eyCaptain").toggle();
@@ -15,5 +16,11 @@ $(document).ready(function(){
    $("#uuFoTitle").click(function(){
     $("#uuFo").toggle();
     $("#uu_777").toggle();
+  })
+
+   $("#byFoTitle").click(function(){
+    $("#byFo").toggle();
+    $("#by_757").toggle();
+    $("#by_767").toggle();
   })
 });

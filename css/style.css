@@ -1,8 +1,6 @@
 body{
-	/*background-color: rgba(0, 149, 221, 0.7);*/
-
-	background-image: url("../images/background/clouds1.jpg");
-    background-size: cover;
+	background-image: url("../images/background/plane.jpg");
+  background-size: cover;
 	font-family:'open sans', sans-serif;
 
 
@@ -24,6 +22,10 @@ a:visited {
 	color: black;
 }
 
+/*#background {
+  background-image: url("../images/background/plane.jpg");
+  background-size: cover;
+} */
 
 .navbar-transparent {
     background-color: rgba(0, 149, 221, 0.4);
@@ -52,7 +54,8 @@ width: 20%;
 
 
 .contenu {
-	background: rgba(0, 149, 221, 0.2);
+  background: rgba(210, 209, 207, 0.9);
+	/*background: rgba(0, 149, 221, 0.2);*/
 	padding: 30px;
 	width: 800px;
 	margin: 0 auto;

@@ -1,10 +1,5 @@
 body{
-	background-image: url("../images/background/plane.jpg");
-  background-size: cover;
 	font-family:'open sans', sans-serif;
-
-
-
 }
 
 a {
@@ -22,17 +17,15 @@ a:visited {
 	color: black;
 }
 
-/*#background {
-  background-image: url("../images/background/plane.jpg");
-  background-size: cover;
-} */
 
 .navbar-transparent {
     background-color: rgba(0, 149, 221, 0.4);
+
 }
 
-
-
+.nav.navbar-nav {
+    color: black;
+}
 .photo{
 float: left;
 width: 20%;
@@ -68,11 +61,7 @@ width: 20%;
 	margin: 30px;
 }
 
-/*#footer{
-	background-color: rgba(0, 149, 221, 0.4);
-	height: 8vh;
-    width: 100%;
-} */
+
 
 
 

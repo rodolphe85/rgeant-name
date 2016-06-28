@@ -1,4 +1,4 @@
-var today = new Date();
+/* var today = new Date();
 document.getElementById('time').innerHTML=today;
 
 var xtoday = new Date(); // date d'aujourd'hui en millisecondes
@@ -21,4 +21,15 @@ countDown = function(){
 
 var finalCountDown = countDown(reboursDays);
 
-document.getElementById('finalcountdown').innerHTML=finalCountDown;
+document.getElementById('finalcountdown').innerHTML=finalCountDown; */
+
+// Random display of Background images
+var totalCount = 5;
+function ChangeIt()
+{
+var num = Math.ceil( Math.random() * totalCount );
+document.body.background = 'images/background/'+num+'.jpg';
+document.body.style.backgroundRepeat = "no-repeat";// Background repeat
+}
+
+ChangeIt();

@@ -24,8 +24,6 @@ $(document).ready(function(){
     $("#by_767").toggle();
   })
 
- /*images = ['clouds1.jpg', 'cb.jpg', 'circles.jpg', 'plane.jpg', 'roads.jpg', 'trails.jpg'];
- $('#background').css({'background-image': 'url(../images/background/)' + images[Math.floor(Math.random() * images.length)] }); */
 
 
 });

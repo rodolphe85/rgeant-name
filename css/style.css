@@ -14,7 +14,7 @@ a:hover {
 
 a:visited {
   text-decoration: none;
-	color: black;
+	color: white;
 }
 
 
@@ -23,9 +23,30 @@ a:visited {
 
 }
 
+.container{
+  width: auto;
+  color: white;
+}
+
+.list-inline{
+  display: inline;
+  padding: 10px;
+  color: white;
+
+}
+
+.links{
+  padding: 1.5em;
+}
+
 .navbar {
    min-height: 60px;
 }
+
+.nav, .navbar-nav{
+  color: red;
+}
+
 .photo{
 float: left;
 width: 20%;
@@ -58,6 +79,7 @@ width: 20%;
   border-radius: 10px;
 	padding: 30px;
 	width: 800px;
+
 	margin: 0 auto;
 	box-shadow: 2px 2px 3px #C1BDB4;
 

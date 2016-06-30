@@ -1,5 +1,14 @@
-/* var today = new Date();
+ var today = new Date();
+ var isId = document.getElementById('time');
+
+// document.getElementById('time').innerHTML=today;
+
+ if (isId !== null) {
 document.getElementById('time').innerHTML=today;
+}
+
+
+
 
 var xtoday = new Date(); // date d'aujourd'hui en millisecondes
 var christmas = new Date('2016-12-25'); // Date de Noel en millisecondes
@@ -20,8 +29,12 @@ countDown = function(){
 };
 
 var finalCountDown = countDown(reboursDays);
+var isFinalCountDown = document.getElementById('finalcountdown'); // checking id the #finalcountdown is here to execute the code
 
-document.getElementById('finalcountdown').innerHTML=finalCountDown; */
+if (isFinalCountDown !== null){
+  document.getElementById('finalcountdown').innerHTML=finalCountDown;
+}
+
 
 // Random display of Background images
 var totalCount = 5;

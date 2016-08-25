@@ -92,9 +92,8 @@ width: 20%;
   background: rgba(210, 209, 207, 0.9);
   border-radius: 10px;
 	padding: 30px;
-	width: 800px;
-
-	margin: 0 auto;
+  margin: 0 auto;
+  width: 80%;
 	box-shadow: 2px 2px 3px #C1BDB4;
 
 }
